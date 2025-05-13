@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-e(!dju=7bgi^*q_v*fmc+90@_iddew6(=1u9)x1^&v4hbq!#ja'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -48,6 +48,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+
 ]
 
 ROOT_URLCONF = 'flipcart_ecom.urls'
@@ -134,3 +136,5 @@ EMAIL_HOST_USER="mlvijayalakshmiloganadhan@gmail.com"
 EMAIL_HOST_PASSWORD ="ucpi spys nzel ysje"
 CONTACT_EMAIL="mlvijayalakshmiloganadhan@gmail.com"
 DEFAULT_FROM_EMAIL=EMAIL_HOST_USER
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
