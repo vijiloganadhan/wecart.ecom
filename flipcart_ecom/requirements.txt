@@ -90,8 +90,6 @@ pickleshare==0.7.5
 pillow==11.1.0
 pkginfo==1.12.1.2
 platformdirs==4.3.7
-poetry==2.1.2
-poetry-core==2.1.2
 prompt-toolkit==3.0.36
 psutil==5.9.4
 psycopg2-binary==2.9.10
@@ -103,7 +101,6 @@ pyinstaller==5.7.0
 pyinstaller-hooks-contrib==2022.14
 PyJWT==2.6.0
 pyparsing==3.0.9
-pypiwin32==223
 pyproject_hooks==1.2.0
 PySocks==1.7.1
 python-dateutil==2.8.2
