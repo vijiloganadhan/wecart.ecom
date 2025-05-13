@@ -138,3 +138,4 @@ CONTACT_EMAIL="mlvijayalakshmiloganadhan@gmail.com"
 DEFAULT_FROM_EMAIL=EMAIL_HOST_USER
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
