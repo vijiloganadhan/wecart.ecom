@@ -1,1 +1,1 @@
-web: gunicorn flipcart_ecom.wsgi:application
+web: gunicorn flipcart_ecom/flipcart_ecom/wsgi:application
